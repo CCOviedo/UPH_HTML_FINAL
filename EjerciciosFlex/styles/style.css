@@ -1,0 +1,49 @@
+body{
+    background-color:#f1f1f1;
+    font-size: 16px;
+}
+
+.container{
+    margin: 1em;
+}
+
+.principal{
+    width: 70%;
+}
+
+.destacado{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.destacado img{
+    width: 70%;
+}
+
+.sub-noticias {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.sub-noticias div {
+    margin: 0 1em 0 0;
+    width: 30%;
+}
+
+.sub-noticias img {
+    width: 100%;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features img {
+    width: 100%;
+}
+
+.features div {
+    width: 16%;
+    margin: 1em;
+}

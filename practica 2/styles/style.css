@@ -1,0 +1,70 @@
+body{
+    background-color:#f1f1f1;
+    font-size: 16px;
+}
+
+iframe{
+    width:100%;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 95%;
+    background: #ffffff;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+.breadcrumb{
+    font-size: .75em;
+    margin-bottom: 1em;
+}
+
+.breadcrumb__item{
+    display: inline-block ;
+    position: relative;
+    padding-right: 20px;
+}
+
+.breadcrumb__item:after{
+    content: '>';
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.breadcrumb__item:last-child:after{
+    content: none;
+}
+
+/*Codigo de ejemplo de float
+.float-row{
+    clear: both;
+}
+
+.article__body{
+    float: left;
+    width: 70%;
+}
+
+.article__related{
+    float: left;
+    width: 30%;
+}*/
+
+.article-row{
+    display: flex;
+}
+
+.article__body{
+    /*width: calc(100%-330px);*/
+    width: 70%;
+}
+
+.article__related{
+    /*width: 300px;*/
+    width: 30%;
+}
